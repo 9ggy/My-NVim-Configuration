@@ -7,12 +7,13 @@
 "             NVIM Config File 
 
 
-"General Configurations
+" Sourcing settings from other files (much more clean and organized)
+  " General Configurations
 source ~/.config/nvim/settings.vim
-"Plugin Manager Init
+  " Plugin Manager Init
 source ~/.config/nvim/plugins.vim
-"keybinds
+  " Keybinds
 source ~/.config/nvim/keybinds.vim
 
-"Setting colorscheme since this is the only place it works in
+" Setting colorscheme since this is the only place it works in
 colorscheme tokyonight
